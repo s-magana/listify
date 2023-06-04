@@ -8,6 +8,8 @@ require('dotenv').config({path: './config/.env'})
 
 connectDB()
 
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 app.use(logger('dev'))
 
 app.listen(process.env.PORT, ()=>{
