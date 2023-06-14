@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
@@ -8,12 +12,13 @@ body {
 
 h1 {
     font-size: 100px;
-    margin-bottom: 0px;
+    margin-top: 30px;
 }
 
 p {
     font-size: 25px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .buttons {
@@ -61,19 +66,74 @@ input {
     text-transform: uppercase;
 }
 
+.title {
+    text-align: center;
+}
 
+.todosCap {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
 
+.todoItem {
+    font-size: 20px;
+    margin-left: 20px;
+}
 
+.del {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+}
 
+.todoForm {
+    border: 2px solid #333;
+    /* margin: 2rem auto; */
+    margin: 2rem 4rem;
+    padding: 2rem;
+}
 
+.todoBtn {
+    width: 100%;
+    display: block;
+    background-color: #B9C09A;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
 
+.logoutBtn {
+    margin: 2vh auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 2vh 5vh;
+    color: red;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    /* color: white; */
+    font-family: "Helvetica Neue", Helvetica, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
 
-
+.todosLeft {
+    margin-top: 30px;
+    color: #B9C09A;
+    margin-left: 20px;
+}
 
 .completed{
     text-decoration: line-through;
     color: gray;
 }
+
 .not{
     text-decoration: underline;
 }
